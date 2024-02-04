@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>Assignment</title>
   </head>
   <body>
@@ -13,17 +17,17 @@
           <img src="" alt="" />
           <p>Task Sync</p>
         </div>
-        <!-- <div class="common_navigations">
-          <div class="nav_user">
-            <img src="/images/download.jpeg" alt="" />
-          </div>
-          <div class="nav_icon">
-            <img src="/images/bell.png" alt="" />
-          </div>
-          <div class="nav_icon">
-            <img src="/images/plus.png" alt="" />
-          </div>
-        </div> -->
+        <div class="teacher_home_nav">
+          <a href="/CreateClass.html" class="create_class_button">
+            <button><i class="fa fa-plus"></i> Add Student</button>
+          </a>
+          <a href="/CreateClass.html" class="create_class_button">
+            <button><i class="fa fa-eye"></i> View Student</button>
+          </a>
+          <a href="#" class="nav_user">
+            <img height="40" width="40" src="/images/download.jpeg" alt="" />
+          </a>
+        </div>
       </div>
       <div class="home_body">
         <div class="sidebar">
@@ -32,33 +36,25 @@
           </div>
           <hr />
           <div class="routes_style">
-            <div class="icon_and_select">
-              <img src="" alt="" />
+            <a href="/TeacherHome.html" class="icon_and_select">
+              <i class="fa fa-home fa-lg" style="color: #2c73eb"></i>
               <p>Dashboard</p>
-            </div>
-            <div class="icon_and_select">
-              <img src="" alt="" />
-              <p>Enrolled</p>
-            </div>
-            <div class="icon_and_select">
-              <img src="" alt="" />
+            </a>
+            <a href="/Classes.html" class="icon_and_select">
+              <i class="fa fa-pencil-square-o fa-lg" style="color: #2c73eb"></i>
+              <p>Classes</p>
+            </a>
+            <a href="/TeacherGroup.html" class="icon_and_select">
+              <i class="fa fa-users fa-lg" style="color: #2c73eb"></i>
               <p>Groups</p>
-            </div>
+            </a>
           </div>
           <hr />
           <div class="routes_style">
-            <div class="icon_and_select">
-              <img src="" alt="" />
-              <p>Dashboard</p>
-            </div>
-            <div class="icon_and_select">
-              <img src="" alt="" />
-              <p>Enrolled</p>
-            </div>
-            <div class="icon_and_select">
-              <img src="" alt="" />
-              <p>Groups</p>
-            </div>
+            <a href="#" class="icon_and_select">
+              <i class="fa fa-wrench fa-lg" style="color: #2c73eb"></i>
+              <p>Settings</p>
+            </a>
           </div>
           <hr />
           <div class="need_help">
@@ -75,7 +71,7 @@
               <div class="assignment_header">
                 <h4>Group A1</h4>
                 <div class="assignment_details_group">
-                  <button>Assignment One</button>
+                  <button>Assignment One <i class="fa fa-eye"></i></button>
                 </div>
               </div>
             </div>

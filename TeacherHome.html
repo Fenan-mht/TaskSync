@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
     <title>Teacher's Home</title>
   </head>
   <body>
@@ -13,17 +18,14 @@
           <img src="" alt="" />
           <p>Task Sync</p>
         </div>
-        <!-- <div class="common_navigations">
-          <div class="nav_user">
-            <img src="/images/download.jpeg" alt="" />
-          </div>
-          <div class="nav_icon">
-            <img src="/images/bell.png" alt="" />
-          </div>
-          <div class="nav_icon">
-            <img src="/images/plus.png" alt="" />
-          </div>
-        </div> -->
+        <div class="teacher_home_nav">
+          <a href="/CreateClass.html" class="create_class_button">
+            <button><i class="fa fa-plus"></i> Create Class</button>
+          </a>
+          <a href="#" class="nav_user">
+            <img height="40" width="40" src="/images/download.jpeg" alt="" />
+          </a>
+        </div>
       </div>
       <div class="home_body">
         <div class="sidebar">
@@ -32,33 +34,25 @@
           </div>
           <hr />
           <div class="routes_style">
-            <div class="icon_and_select">
-              <img src="" alt="" />
+            <a href="/TeacherHome.html" class="icon_and_select">
+              <i class="fa fa-home fa-lg" style="color: #2c73eb"></i>
               <p>Dashboard</p>
-            </div>
-            <div class="icon_and_select">
-              <img src="" alt="" />
-              <p>Enrolled</p>
-            </div>
-            <div class="icon_and_select">
-              <img src="" alt="" />
+            </a>
+            <a href="/Classes.html" class="icon_and_select">
+              <i class="fa fa-pencil-square-o fa-lg" style="color: #2c73eb"></i>
+              <p>Classes</p>
+            </a>
+            <a href="/TeacherGroup.html" class="icon_and_select">
+              <i class="fa fa-users fa-lg" style="color: #2c73eb"></i>
               <p>Groups</p>
-            </div>
+            </a>
           </div>
           <hr />
           <div class="routes_style">
-            <div class="icon_and_select">
-              <img src="" alt="" />
-              <p>Dashboard</p>
-            </div>
-            <div class="icon_and_select">
-              <img src="" alt="" />
-              <p>Enrolled</p>
-            </div>
-            <div class="icon_and_select">
-              <img src="" alt="" />
-              <p>Groups</p>
-            </div>
+            <a href="#" class="icon_and_select">
+              <i class="fa fa-wrench fa-lg" style="color: #2c73eb"></i>
+              <p>Settings</p>
+            </a>
           </div>
           <hr />
           <div class="need_help">
@@ -92,10 +86,7 @@
                 <p class="course_title">Course Title</p>
               </div>
               <div class="card_footer">
-                <div class="course_rating">
-                  <img src="/images/plus.png" alt="" />
-                  <p class="star_count">41</p>
-                </div>
+                <div class="course_rating"></div>
                 <div class="number_students">
                   <img src="/images/plus.png" alt="" />
                   <p class="number_count">5000 students</p>
@@ -156,52 +147,6 @@
                 </div>
               </div>
             </div> -->
-          </div>
-          <div class="com_doc">
-            <div class="com_doc_container">
-              <div class="com_doc_header">
-                <h3>Comment</h3>
-                <button>See all</button>
-              </div>
-              <hr />
-              <div class="com_doc_list">
-                <div class="com_doc_item">
-                  <div class="com_doc_profile">
-                    <img height="50" src="/images/download.jpeg" alt="" />
-                  </div>
-                  <div class="com_doc_content">
-                    <h3>User Name</h3>
-                    <p>
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                      Eos mollitia est ullam repudiandae rerum unde.
-                    </p>
-                  </div>
-                  <div class="com_doc_time">
-                    <p>10:25</p>
-                  </div>
-                </div>
-                <hr />
-              </div>
-            </div>
-            <div class="com_doc_container">
-              <div class="com_doc_header">
-                <h3>Documents</h3>
-                <button>See all</button>
-              </div>
-              <hr />
-              <div class="com_doc_list">
-                <div class="com_doc_item_1">
-                  <div class="com_doc_profile">
-                    <img height="50" src="/images/download.jpeg" alt="" />
-                  </div>
-                  <div class="com_doc_content_1">
-                    <h3>Document Name</h3>
-                    <p>04 May, 09:20 AM</p>
-                  </div>
-                </div>
-                <hr />
-              </div>
-            </div>
           </div>
         </div>
       </div>
